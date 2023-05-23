@@ -1,0 +1,92 @@
+body{ background-image:url(imagenes/fondo.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin:auto;
+    font-style: italic; 
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 5px 2px 2px rgb(110, 40, 122);
+    border-radius: 20px;
+   
+   }
+ 
+    
+   #nom_pest{background:linear-gradient(to bottom right,#a85ae7,#9eecf3);}
+
+    #menu_arranque, #menu_embrague, #menu_freno,#menu_motor,#menu_suspencion {padding-block:1%;}
+
+    .containerRep{
+        display: flex;
+          flex-wrap: wrap;
+            justify-content:start;
+            text-align: center;
+            font-weight: bold;
+           
+      }
+      .imagenRep{
+      height: 300px;
+        margin:3%;
+      
+      }
+      @media all and (min-whidth: 600px ){
+                  .imagenRep{flex-basis: 10%;;}
+              }
+              @media all and (min-whidth: 800px )
+              { .imagenRep{flex-basis: 40%;}}
+      
+              @media all and (min-whidth: 1250px )
+              { .imagenRep{flex-basis: 100%;}}
+
+              #guardar{background:linear-gradient(to bottom right,#7c2a91,#b9e496); border: 2px solid #46487a; border-radius: 15px; margin: 25px;}
+
+              #guardar:hover{
+                background:linear-gradient(to bottom right,#157712,#aae0d5);
+                transition: all .5s;
+                margin-left: 15px;
+              }     
+              .container {
+                display: flex;
+              flex-wrap: wrap;
+                justify-content:space-around;
+                text-align: center;}  
+                       
+          
+                  .botones{
+                      flex-flow: row wrap;
+                      text-align: center;
+                      margin:3%;
+                   flex-grow: 1;
+                   height: 150px;       
+                  
+                  }
+                  .imagen{
+                      margin:3%;
+                      flex-grow: 1;
+                   flex-basis: 100%;
+                  
+                  
+                  }
+                  .texto{
+                      margin:3%;
+                      flex-grow: 1;
+                   flex-basis: 100%;
+                  }
+                  @media all and (min-whidth: 600px ){
+                      .botones{flex-basis: 10%;;}
+                  }
+                  @media all and (min-whidth: 800px )
+                  { .botones{flex-basis: 40%;}}
+          
+                  @media all and (min-whidth: 1800px )
+                  { .botones{flex-basis: 100%;}}  
+
+                  iframe {
+                    border: 3px solid rgb(107, 11, 126);
+                    width: 100%; 
+                }
+                
